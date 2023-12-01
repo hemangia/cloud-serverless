@@ -10,6 +10,11 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+.mvn/
+.mtj.tmp/
+.DS_Store
+mvnw
+mvnw.cmd
 # Package Files #
 *.jar
 *.war
@@ -19,6 +24,12 @@
 *.tar.gz
 *.rar
 
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+
+# Exclude maven-wrapper properties and JAR files
+demo/.mvn/wrapper/maven-wrapper.properties
+demo/.mvn/wrapper/maven-wrapper.jar
